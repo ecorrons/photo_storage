@@ -1,0 +1,8 @@
+config/master.key
+log/development.log
+tmp/cache/
+tmp/development_secret.txt
+tmp/storage/
+
+# Ignore application configuration
+/config/application.yml
