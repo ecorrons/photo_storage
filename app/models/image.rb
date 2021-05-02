@@ -1,7 +1,7 @@
 # Cached images
 class Image < ApplicationRecord
   # configure DB cached image's TTL as you wish!
-  TTL = 3.minutes
+  TTL = 2.hours
 
   def expired?
     created_at <= TTL.ago
