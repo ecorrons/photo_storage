@@ -1,4 +1,5 @@
 # API token handler and renewal, retrieves images from API and saves them in DB (cache)
+# Disclaimer: It would be better if this class was a rake task that runs scheduled
 class PhotoStorage
   require 'connection'
 

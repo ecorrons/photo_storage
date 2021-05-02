@@ -46,6 +46,9 @@ bundle exec rails s
 And now you can visit the site with the URL: http://localhost:3000/images
 
 This app creates an Image Gallery Search API. It consumes image data from an external API and provides 2 endpoints:
-GET /images : Returns all cached images. First hit and the one after cache expiration may take a while, please be patient.
 
-GET /search/:searchTerm : Searches given term among cached images. Meta fields considered are: Author, Camera and Tags. For example, try: GET /search/Canon or GET /search/nature
+##### GET /images
+Returns all cached images. First hit and the one after cache expiration may take a while, please be patient.
+
+##### GET /search/:searchTerm
+Searches given term among cached images. Meta fields considered are: Author, Camera and Tags. For example, try: GET /search/Canon or GET /search/nature
