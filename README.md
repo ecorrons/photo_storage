@@ -28,3 +28,17 @@ Run the following commands to create and migrate the database.
 bundle exec rake db:create
 bundle exec rake db:migrate
 ```
+
+##### 4. Define TTL
+
+TTL of cached images is defined in app/models/image.rb. Change it as you wish as long as you 
+are aware it has to be an ActiveSupport::Duration instance.
+
+
+##### 5. Start the Rails server
+
+You can start the rails server using the command given below.
+
+```ruby
+bundle exec rails s
+```
