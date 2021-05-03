@@ -14,7 +14,7 @@ git clone git@github.com:ecorrons/photo_storage.git
 ```
 ##### 2. Create application.yml file
 
-Copy the sample application.yml file and edit the values as your needed.
+Copy the sample application.yml file and edit the values as you need.
 
 ```bash
 cp config/application.yml.example config/application.yml
@@ -51,4 +51,5 @@ This app creates an Image Gallery Search API. It consumes image data from an ext
 Returns all cached images. First hit and the one after cache expiration may take a while, please be patient.
 
 ##### GET /search/:searchTerm
-Searches given term among cached images. Meta fields considered are: Author, Camera and Tags. For example, try: GET /search/Canon or GET /search/nature
+Searches given term among cached images. Meta fields considered are: Author, Camera and Tags. For example, try: GET /search/Canon 
+or GET /search/nature
